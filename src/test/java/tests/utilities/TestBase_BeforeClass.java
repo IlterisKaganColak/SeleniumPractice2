@@ -1,4 +1,4 @@
-package utilities;
+package tests.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class TestBase_BeforeClass {
 
-    protected static WebDriver driver;
+    public static WebDriver driver;
 
     @BeforeClass
     public static void setup(){

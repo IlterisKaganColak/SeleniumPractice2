@@ -1,4 +1,4 @@
-package utilities;
+package tests.utilities;
 
 import org.openqa.selenium.WebElement;
 
